@@ -12,3 +12,7 @@ I practiced using and making json files.
 
  It was my first time reading from a file in JS that wasn't sent in by the user.
 
+# Play here
+
+https://zuzek16.github.io/quizAboutPoland/
+
