@@ -1,0 +1,51 @@
+:root {
+    --text-color: #F02F34;
+    --background-color: #E7D3BB;
+    --text-accent-color: rgb(171, 40, 45);
+    --bg-accent-color: #a8947b;
+    --font-size: 18px;
+    --font-size-bigger: var(--font-size)*4;
+}
+
+* {
+    font-size: var(--font-size);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+*:hover {
+    cursor: default;
+}
+
+button:hover, a:hover, input:hover {
+    cursor:pointer;
+}
+
+/* .imgContainer img{
+    height: 100%;
+    width: auto;
+} */
+
+/* ^^^ boilerplate - my own */
