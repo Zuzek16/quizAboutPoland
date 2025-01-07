@@ -10,7 +10,9 @@ JavaScript, JSON
 
 I practiced using and making json files.
 
- It was my first time reading from a file in JS that wasn't sent in by the user.
+I had to read from a file in JS that wasn't sent in by the user.
+
+Promises came into action with the fetch() ajax function
 
 # Play here
 

@@ -1,6 +1,7 @@
-import data from '../questions.json';
-console.log(String(data));
+// import data from '../questions.json';
+// console.log(String(data));
 let points = 0;
+let jsonData;
 
 function start() {
     
@@ -10,14 +11,17 @@ function anwser(isRight) {
     
 }
 
-const file = new File([""], "questions.json", {
-    type: "application/json",
-  });
 
-  console.dir(file);
-const fr = new FileReader()
+fetch('./questions.json')
+.then(res => {
+  // res.json();  
+  jsonData = res.json();
+  console.log(jsonData);
 
-console.log(fr.readAsText(file));
+})
 
-  
-  
+// .then(response => response.json())
+// .then(users => displayUsers(users))
+// .catch(error => console.error('Error fetching users:', error));
+// .then(q => console.log(/))
+
