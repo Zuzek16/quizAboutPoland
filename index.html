@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test your knowlegde of the polish language</h1>
-    <p>Do you know how to say a general greeting in polish? Do you know what the currency poles use?</p>
-    <p>Try this education and fun quiz!</p>
+    <div id="menu">
+        <h1>Test your knowlegde of the polish language</h1>
+        <p>Do you know how to say a general greeting in polish? Do you know what the currency poles use?</p>
+        <p>Try this education and fun quiz!</p>
+    
+    
+    
+        <button onclick="start()">Start quiz</button>
+    
+    </div>
+    <div id="quiz">
+        <div id="question"></div>
+        <div id="anwsers" class="container">
+            <button class="quizBtn"><div id="0"></div></button>
+            <button class="quizBtn"><div id="1"></div></button>
+            <button class="quizBtn"><div id="2"></div></button>
+            <button class="quizBtn"><div id="3"></div></button>
+        </div>
+    </div>
+    
 
 
-
-    <button>Start quiz</button>
-
-
-
-<script type="module" src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

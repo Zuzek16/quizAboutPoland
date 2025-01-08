@@ -12,7 +12,9 @@ I practiced using and making json files.
 
 I had to read from a file in JS that wasn't sent in by the user.
 
-Promises came into action with the fetch() ajax function
+Promises came into action with the fetch() ajax function.
+
+I had to broden my knowlegde of promises and JS async.
 
 # Play here
 
