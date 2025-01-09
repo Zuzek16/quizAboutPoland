@@ -3,7 +3,7 @@
     --background-color: #E7D3BB;
     --text-accent-color: rgb(171, 40, 45);
     --bg-accent-color: #a8947b;
-    --font-size: 18px;
+    --font-size: 20px;
     --font-size-bigger: var(--font-size)*4;
 }
 
@@ -43,10 +43,9 @@ button:hover, a:hover, input:hover {
     cursor:pointer;
 }
 
-/* .imgContainer img{
-    height: 100%;
-    width: auto;
-} */
+.bold {
+    font-weight: bold;
+}
 
 /* ^^^ boilerplate - my own */
 
@@ -54,8 +53,66 @@ button:hover, a:hover, input:hover {
     display: none;
 }
 
+#question {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#anwsers {
+    background-color: var(--bg-accent-color);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+}
+
+#anwsers div {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-accent-color);
+
+}
+
+#anwsers button {
+    margin: 1em;
+    padding: 1em;
+}
+
 .quizBtn {
     padding: calc(var(--font-size)/4);
     border-radius: 5px;
     border: var(--text-accent-color) solid 2px
+}
+
+.quizBtn:active {
+    background-color: var(--text-accent-color);
+    box-shadow: 2px 2px 2px 3px var(--bg-accent-color);
+} 
+
+p, h1, button {
+    text-align: center;
+}
+
+button:not(#quiz button) {
+    font-weight: bold;
+}
+
+#result {
+    display: none;
+}
+
+.r {
+    color: green;
+}
+
+.reweal{
+    display: none;
+}
+
+#anwsersOut {
+    border: var(--bg-accent-color) 2px solid;
+    /* margin: 0 fit-content 0 fit-content; */
 }

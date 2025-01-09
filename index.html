@@ -10,23 +10,37 @@
     <div id="menu">
         <h1>Test your knowlegde of the polish language</h1>
         <p>Do you know how to say a general greeting in polish? Do you know what the currency poles use?</p>
-        <p>Try this education and fun quiz!</p>
+        <p>Try this educational and fun quiz!</p>
     
     
-    
-        <button onclick="start()">Start quiz</button>
+    <!-- <div> -->
+        <button class="center" onclick="start()">Start quiz</button>
+
+    <!-- </div> -->
     
     </div>
     <div id="quiz">
-        <div id="question"></div>
+        <div id="question">Something went wrong, reload page and start the quiz again</div>
         <div id="anwsers" class="container">
-            <button class="quizBtn"><div id="0"></div></button>
-            <button class="quizBtn"><div id="1"></div></button>
-            <button class="quizBtn"><div id="2"></div></button>
-            <button class="quizBtn"><div id="3"></div></button>
+            <div><button onclick="checkAnwser(0)" id="0" class="quizBtn"></button></div>
+            <div><button onclick="checkAnwser(1)" id="1" class="quizBtn"></button></div>
+            <div><button onclick="checkAnwser(2)" id="2" class="quizBtn"></button></div>
+            <div><button onclick="checkAnwser(3)" id="3" class="quizBtn"></button></div>
         </div>
     </div>
     
+    <div id="result">
+        <p class="bold">Here are your results!</p>
+        <p id="points"></p>
+        <p id="percent"></p>
+        <p>Thanks for playing!</p>
+
+        <button class="center" id="Rewealanwsers" onclick="rewealAnwsers()">Reweal anwsers</button>
+        <div class="reweal" id="anwsersOut"></div>
+
+        <p>I hope you learnt something new and had fun!</p>
+        <p>Happy coding!</p>
+    </div>
 
 
 <script src="script.js"></script>
