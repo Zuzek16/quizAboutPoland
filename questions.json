@@ -7,8 +7,7 @@
                 "Kacwin" : false,
                 "Kraków" : false,
                 "Gdynia" : false
-            }
-               
+            }  
         },
         {
             "text": "What year did Poland enter the European Union?",
@@ -17,8 +16,169 @@
                 "1993" : false,
                 "2004" : true,
                 "2007" : false
+            }    
+        },
+        {
+            "text": "How do you say 'Good Morning'?",
+            "options": {
+                "Dobrý deň!" : false,
+                "Grüß Gott" : false,
+                "Tere hommikust" : false,
+                "Dzień dobry" : true
             }
-               
+        },
+        {
+            "text": "What is the currency used in Poland?",
+            "options": {
+                "Złoty (PLN)" : true,
+                "Euro (EUR)" : false,
+                "Rubel (RUB)" : false,
+                "Korona (CZK)" : false
+            }
+        },
+        {
+            "text": "How many partitions of Poland there were?",
+            "options": {
+                "4" : false,
+                "0" : false,
+                "1" : false,
+                "3" : true
+            }
+        },
+        {
+            "text": "What is one of the most popular last name in Poland?",
+            "options": {
+                "Haduch" : false,
+                "Kowal" : true,
+                "Świergiel" : false,
+                "Płocharczyl" : false
+            }
+        },
+        {
+            "text": "How do you say 'cat' in polish?",
+            "options": {
+                "rak" : false,
+                "kara" : false,
+                "car" : false,
+                "kot" : true
+            }
+        },
+        {
+            "text": "How many years do polish children go to elementary school?",
+            "options": {
+                "6" : false,
+                "7" : false,
+                "8" : true,
+                "5" : false
+            }
+        },
+        {
+            "text": "How much (avg) is an US dollar worth in złoty?",
+            "options": {
+                "10.90" : false,
+                "0.20" : false,
+                "100.00" : false,
+                "4.10" : true
+            }
+        },
+        {
+            "text": "When did Poland finally regain it's independence after 123 years of occupations?",
+            "options": {
+                "1st Novemver 1998" : false,
+                "11th November 1918" : true,
+                "1st September 1918" : false,
+                "11th December 1819" : false
+            }
+        },
+        {
+            "text": "Which letter does NOT belong in the polish language?",
+            "options": {
+                "ż" : false,
+                "ó" : false,
+                "ĕ" : true,
+                "ł" : false
+            }
+        },
+        {
+            "text": "How would you say '1783' in polish?",
+            "options": {
+                "tysiąc siedemset osiemdziesiąt trzy" : true,
+                "tysiąc osiemset siedemdziesiąt trzy" : false,
+                "tysiąc siedemdziesiąc osiemset trzy" : false,
+                "tysiąc osimdziesiąc siedemset trzy" : false
+            }    
+        },
+        {
+            "text": "What are the most popular dog names in Poland?",
+            "options": {
+                "Michał, Adam, Anna, Ola" : false,
+                "Agata, Martyna, Mariusz, Dawid" : false,
+                "Azor, Reksio, Burek, Lusia" : true,
+                "Kamil, Klaudia, Seweryn, Damian" : false
+            }    
+        },
+        {
+            "text": "Which two foreign languages do children learn in a polish elementary school?",
+            "options": {
+                "English, Polish" : false,
+                "Russian, English" : false,
+                "Polish, English" : false,
+                "English, German" : true
+            }  
+        },
+        {
+            "text": "When was the currently used polish constitiution passed?",
+            "options": {
+                "2nd April 1997" : true,
+                "1st April 1997" : false,
+                "3rd May 2000" : false,
+                "2nd March 1998" : false
+            }
+        },
+        {
+            "text": "How do you say 'Poland' in Polish",
+            "options": {
+                "Polsalka" : false,
+                "Poland" : false,
+                "Polanda" : false,
+                "Polska" : true
+            }
+        },
+        {
+            "text": "What's the tallest mountain range in Poland?",
+            "options": {
+                "Beskid Żywiecki" : false,
+                "Tatry" : true,
+                "Bieszczady" : false,
+                "Gorce" : false
+            }    
+        },
+        {
+            "text": "What's the longest river in Poland?",
+            "options": {
+                "Wisłok" : false,
+                "Bug" : false,
+                "Wisła" : true,
+                "Odra" : false
+            }  
+        },
+        {
+            "text": "Which sea does Poland have access to?",
+            "options": {
+                "North" : false,
+                "Black" : false,
+                "Mediterranean" : false,
+                "Baltic" : true
+            }    
+        },
+        {
+            "text": "Which country does NOT border with Poland?",
+            "options": {
+                "Latvia" : true,
+                "Germany" : false,
+                "Ukraine" : false,
+                "Czech Republic" : false
+            }    
         }
     ]
 

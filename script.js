@@ -77,7 +77,7 @@ function checkAnwser(optionId) {
 
 function resultsScreen() {
   loadAnwsers();
-  let percent = points/jsonData.length;
+  let percent = (points/jsonData.length)*100;
   document.getElementById("quiz").style.setProperty("display", hidden);
   document.getElementById("result").style.setProperty("display", shown);
 
@@ -94,22 +94,24 @@ function loadAnwsers() {
     console.log(q[1]);
     q[1].forEach((anw, id)=>{
 
-      correctAnw += "<p class=";
+ 
+
+      correctAnw += "<p class='" ;
 
       if (q[2][id]) {
-        correctAnw += "'r'";
+        correctAnw += "r";
       } else {
-        correctAnw += "'w'";
+        correctAnw += "w";
       }
       
-      correctAnw += ">" + anw + "</p>"
+      correctAnw += "'>" + anw + "</p>"
 
         })
 
     htmlEl.innerHTML += `
     <div>
 
-    <p class='bold'>${q[0]}</p>
+    <p class='bold text'>${q[0]}</p>
     `+correctAnw+`</div>`;
 
   })

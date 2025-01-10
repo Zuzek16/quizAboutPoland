@@ -18,6 +18,8 @@ I had to broaden my knowlegde of promises and JS async.
 
 Rest of the app is JS DOM manipulation and functionality through JS.
 
+I used media queries to make the quiz responsive.
+
 # Play here
 
 https://zuzek16.github.io/quizAboutPoland/

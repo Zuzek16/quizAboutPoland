@@ -47,6 +47,19 @@ button:hover, a:hover, input:hover {
     font-weight: bold;
 }
 
+.imgContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.imgContainer img {
+    width: 33%;
+    height: auto;
+}
+
+
 /* ^^^ boilerplate - my own */
 
 #quiz {
@@ -66,6 +79,8 @@ button:hover, a:hover, input:hover {
     justify-content: space-around;
     align-items: center;
     padding: 3em;
+    /* padding-left: 5em; */
+    /* padding-right: 5em; */
 }
 
 #anwsers div {
@@ -76,12 +91,12 @@ button:hover, a:hover, input:hover {
 
 }
 
-#anwsers button {
+#anwsers button, button {
     margin: 1em;
     padding: 1em;
 }
 
-.quizBtn {
+.quizBtn, button {
     padding: calc(var(--font-size)/4);
     border-radius: 5px;
     border: var(--text-accent-color) solid 2px
@@ -96,7 +111,7 @@ p, h1, button {
     text-align: center;
 }
 
-button:not(#quiz button) {
+button {
     font-weight: bold;
 }
 
@@ -114,5 +129,32 @@ button:not(#quiz button) {
 
 #anwsersOut {
     border: var(--bg-accent-color) 2px solid;
-    /* margin: 0 fit-content 0 fit-content; */
+    width: fit-content;
+    padding: 10px;
+}
+
+body {
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 475px) {
+
+
+    #anwsers {
+        display: block;
+        justify-content: center;
+
+    }
+    .quizBtn, #anwsers div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+
+    #anwsers {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
 }
