@@ -4,7 +4,7 @@
     --text-accent-color: rgb(171, 40, 45);
     --bg-accent-color: #a8947b;
     --font-size: 20px;
-    --font-size-bigger: var(--font-size)*4;
+    --font-size-bigger: var(--font-size)*1.5;
 }
 
 * {
@@ -70,6 +70,7 @@ button:hover, a:hover, input:hover {
     width: 100%;
     text-align: center;
     font-weight: bold;
+    font-size: calc(var(--font-size-bigger));
 }
 
 #anwsers {
@@ -79,8 +80,6 @@ button:hover, a:hover, input:hover {
     justify-content: space-around;
     align-items: center;
     padding: 3em;
-    /* padding-left: 5em; */
-    /* padding-right: 5em; */
 }
 
 #anwsers div {
@@ -93,7 +92,7 @@ button:hover, a:hover, input:hover {
 
 #anwsers button, button {
     margin: 1em;
-    padding: 1em;
+    /* padding: 2em; */
 }
 
 .quizBtn, button {

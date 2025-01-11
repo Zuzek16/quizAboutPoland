@@ -43,7 +43,7 @@ function start() {
     for (let i = 0; i <= 3; i++) {
       console.log(document.getElementById(i));
       
-      document.getElementById(i).style.setProperty("width", ((widestEl+15) + "px"));
+      document.getElementById(i).style.setProperty("width", ((widestEl+(widestEl/2)) + "px"));
     }
 
     
