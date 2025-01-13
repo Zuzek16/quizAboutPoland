@@ -7,29 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="menu">
+    <header>
         <h1>Test your knowlegde of the polish language</h1>
+
+    </header>
+
+    <div id="menu">
         <p>Do you know how to say a general greeting in polish? Do you know what the currency poles use?</p>
         <p>Try this educational and fun quiz!</p>
-        <button class="center" onclick="start()">Start quiz</button>
+        <button class="center" id="start" onclick="start()">Start quiz</button>
     
         <div class="imgContainer">
-            <img src="img/Zlote-Tarasy.jpg" alt="">
+                <img src="img/Zlote-Tarasy.jpg" alt="">
+                
             <img src="img/uj.jpg" alt="">
-        </div>
-    
-    <!-- <div> -->
 
-    <!-- </div> -->
+        </div>
+
+        <div class="labels">
+            <p>Złote tarasy - Warszawa</p>
+            <p>Uniwersytet Jagiellonski - Kraków</p>
+        </div>
     
     </div>
     <div id="quiz">
         <div id="question">Something went wrong, reload page and start the quiz again</div>
         <div id="anwsers" class="container">
-            <div><button onclick="checkAnwser(0)" id="0" class="quizBtn"></button></div>
-            <div><button onclick="checkAnwser(1)" id="1" class="quizBtn"></button></div>
-            <div><button onclick="checkAnwser(2)" id="2" class="quizBtn"></button></div>
-            <div><button onclick="checkAnwser(3)" id="3" class="quizBtn"></button></div>
+            <div class="tl"><button onclick="checkAnwser(0)" id="0" class="quizBtn"></button></div>
+            <div class="tr"><button onclick="checkAnwser(1)" id="1" class="quizBtn"></button></div>
+            <div class="bl"><button onclick="checkAnwser(2)" id="2" class="quizBtn"></button></div>
+            <div class="br"><button onclick="checkAnwser(3)" id="3" class="quizBtn"></button></div>
         </div>
     </div>
     
